@@ -16,7 +16,7 @@ const addEventOnElements = function (elements, eventType, callback) {
 // NavBar
 
 const navbar = document.querySelector("[data-navbar]");
-const navTogglers = document.querySelectorAll("[data-nav-togglar]");
+const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
 
 const toggleNavbar = function () {
@@ -24,6 +24,7 @@ const toggleNavbar = function () {
     overlay.classList.toggle("active");
     document.body.classList.toggle("nav-active");
 }
+
 addEventOnElements(navTogglers, "click", toggleNavbar)
 
 // HEADER & BACK TOP BTN
