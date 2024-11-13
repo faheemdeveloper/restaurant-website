@@ -684,6 +684,7 @@ body.nav-active {
 .nav-open-btn {
   padding: 12px;
   padding-inline-end: 0;
+  background: transparent;
 }
 
 .nav-open-btn .line {
@@ -739,6 +740,8 @@ body.nav-active {
   border-radius: var(--radius-circle);
   margin-inline-start: auto;
   margin-block: 30px 20px;
+  background: transparent;
+  font-size: 1.3rem;
 }
 
 .navbar .close-btn ion-icon {
@@ -1808,6 +1811,7 @@ textarea.input-field {
     top: 50%;
     transform: translateY(-50%) rotate(45deg);
     transition: var(--transition-1);
+    background: transparent;
   }
 
   .hero .slider-btn ion-icon {
